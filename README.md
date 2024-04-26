@@ -17,4 +17,4 @@ Emoji Explorer is a user-friendly application designed to provide comprehensive 
 
 ## Demo
 
-https://website-design-plum.vercel.app/
+https://emojiapp-delta.vercel.app/
