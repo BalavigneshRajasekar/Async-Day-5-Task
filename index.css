@@ -1,1 +1,12 @@
-
+.emoji {
+  display: none;
+}
+.parent {
+  background-image: linear-gradient(90deg, rgb(80, 64, 64), rgb(147, 132, 104));
+}
+#alert {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  left: 25%;
+}

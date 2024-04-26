@@ -19,7 +19,24 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="container border border-1 border-danger">
-    <main class="parent row"></main>
+  <body class="container">
+    <h1
+      class="text-center text-bg-success mt-3 border border-1 rounded-2 px-3 py-4"
+    >
+      Emoji And their type
+    </h1>
+    <main class="parent row rounded-2 px-1 py-2">
+      <!-- Intially this will visible once we get the data or error it will hide -->
+      <div
+        class="spinner-border text-primary position-absolute top-50 start-50 z-1 d-block spin"
+        role="status"
+      >
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <!-- Spinner end here -->
+      <!-- Alert when will visible when we get error -->
+      <div class="alert alert-danger d-none" role="alert" id="alert"></div>
+      <!-- Alert end here -->
+    </main>
   </body>
 </html>
