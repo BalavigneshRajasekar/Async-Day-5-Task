@@ -1,5 +1,5 @@
 // API URl of the Emoji
-const apiUrl = "https://emojihub.yurae.pro/api/all";
+const apiUrl = "https://emojihub.yurace.pro/api/all";
 //Spinner element to hide once we get the API data
 let spinner = document.getElementsByClassName("spin");
 let alertBlock = document.getElementsByClassName("alert");
